@@ -8,7 +8,7 @@ function getInitialState() {
 
 const INITIAL_STATE = getInitialState();
 
-const state2actionMapping = {
+const stateActionMapping = {
     [APP_ACTIONS.APP_FILTER_EMPLOYEES]: (state, action) => {
         return {
             ...state,
@@ -18,7 +18,7 @@ const state2actionMapping = {
 }
 
 const appReducer = (state = INITIAL_STATE, action) => {
-    return state2actionMapping[action.type] ? state2actionMapping[action.type](state, action) : state;
+    return stateActionMapping[action.type] ? stateActionMapping[action.type](state, action) : state;
 }
 
 export default appReducer;
