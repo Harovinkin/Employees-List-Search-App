@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Harovinkin/employees-list-search-app/static/js/main.b2ba4b02.chunk.js",
+    "main.js.map": "/Harovinkin/employees-list-search-app/static/js/main.b2ba4b02.chunk.js.map",
+    "runtime-main.js": "/Harovinkin/employees-list-search-app/static/js/runtime-main.a9689e42.js",
+    "runtime-main.js.map": "/Harovinkin/employees-list-search-app/static/js/runtime-main.a9689e42.js.map",
+    "static/js/2.fc95608b.chunk.js": "/Harovinkin/employees-list-search-app/static/js/2.fc95608b.chunk.js",
+    "static/js/2.fc95608b.chunk.js.map": "/Harovinkin/employees-list-search-app/static/js/2.fc95608b.chunk.js.map",
+    "index.html": "/Harovinkin/employees-list-search-app/index.html",
+    "precache-manifest.ace5d9dded5297bbc9e86c80f43d9fc8.js": "/Harovinkin/employees-list-search-app/precache-manifest.ace5d9dded5297bbc9e86c80f43d9fc8.js",
+    "service-worker.js": "/Harovinkin/employees-list-search-app/service-worker.js",
+    "static/js/2.fc95608b.chunk.js.LICENSE.txt": "/Harovinkin/employees-list-search-app/static/js/2.fc95608b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9689e42.js",
+    "static/js/2.fc95608b.chunk.js",
+    "static/js/main.b2ba4b02.chunk.js"
+  ]
+}
