@@ -1,6 +1,6 @@
 import ENDPOINTS from 'modules/api/endpoints';
 
-const BASE_URL = 'https://5f7998dbe402340016f9321f.mockapi.io/api/v1';
+const BASE_URL = 'https://employees-list-search-app-default-rtdb.firebaseio.com';
 
 class Api {
     constructor(baseUrl, endpoints) {
@@ -11,7 +11,7 @@ class Api {
     async generateRequest(endpoint, data) {
         const {method, uri} = this.endpoints[endpoint];
         
-        return fetch(`${this.baseUrl}${uri}`, {method, body: data});
+        return fetch(`${this.baseUrl}${uri}.json`, {method, body: data});
     }
 
     async fetch(endpoint, data) {
